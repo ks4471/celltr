@@ -1,5 +1,5 @@
 
-# Enrichment test for cell type markers identified using scRNA-seq in mouse hippocampus and cortex
+## Enrichment test for cell type markers identified using scRNA-seq in mouse hippocampus and cortex
 
 To run enrichment, install addR - contains all relevant functions, including dependencies for celltr()
 Data visualisation via Heat() - a wrapper for heatmap.2 function (included in addR), values='pval' converts P-values of enrichment to -log10(P-value) & adds R style significance values e.g. *** <0.0001
@@ -18,10 +18,10 @@ example output plot https://www.dropbox.com/s/e12xo5ugm4f5pyq/spatemp_dynamic.ce
 
 
 
-# cell type markers converted to human ensembl gene ids using one-2-one orthologs in biomart:
+### cell type markers converted to human ensembl gene ids using one-2-one orthologs in biomart:
 Zeisel, A. et al. Cell types in the mouse cortex and hippocampus revealed by single-cell RNA-seq. Science (80-. ). 25, 279–284 (2015)
 
-# used in
+### used in
 1.  Srivastava, P. K. et al. A Systems-Level Framework For Drug Discovery Identifies Csf1R As A Novel Anti-Epileptic Drug Target. Nat. Comms. ISSN: 2041-1723 https://www.biorxiv.org/content/early/2017/05/22/140087
 2.  Delahaye-Duriez, A. et al. Rare and common epilepsies converge on a shared gene regulatory network providing opportunities for novel antiepileptic drug discovery. Genome Biol. 17, 245 (2016).
 
