@@ -6,6 +6,7 @@ Data visualisation via Heat() - a wrapper for heatmap.2 function (included in ad
 
 ```
 devtools::install_github("ks4471/addR")
+library(adds)
 ```
 Input is expected as a list of named gene sets, enrichment performed for each gene set.
 ```
