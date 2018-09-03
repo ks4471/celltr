@@ -8,7 +8,7 @@ Data visualisation via Heat() - a wrapper for heatmap.2 function (included in ad
 devtools::install_github("ks4471/addR")
 library(adds)
 ```
-Input is expected as a list of named gene sets, enrichment performed for each gene set.
+Input is expected as a list of named gene sets, enrichment performed for each gene set. Example gene list available to download from dropbox https://www.dropbox.com/s/y2szo7ywloleh92/example.gene.list.Rdata?dl=0
 ```
 input_gene_sets=list(gene_set1=c("ENSG00000121410","ENSG00000114779","ENSG00000168792"),gene_set_2=c("ENSG00000148584","ENSG00000198691","ENSG00000085563"))
 cellt_enrich=celltr(input_gene_sets)
