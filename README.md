@@ -12,7 +12,7 @@ Input is expected as a list of named gene sets, enrichment performed for each ge
 ```
 input_gene_sets=list(gene_set1=c("ENSG00000121410","ENSG00000114779","ENSG00000168792"),gene_set_2=c("ENSG00000148584","ENSG00000198691","ENSG00000085563"))
 cellt_enrich=celltr(input_gene_sets)
-Heat(as.matrix(cellt_enrich),values='pval')
+Heat(make.numeric(cellt_enrich),values='pval')
 ```
 
 
