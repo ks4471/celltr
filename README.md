@@ -21,3 +21,7 @@ Heat(make.numeric(cellt_enrich),values='pval')
 # cell type markers converted to human ensembl gene ids using one-2-one orthologs in biomart:
 Zeisel, A. et al. Cell types in the mouse cortex and hippocampus revealed by single-cell RNA-seq. Science (80-. ). 25, 279–284 (2015)
 
+# used in
+Srivastava, P. K. et al. A Systems-Level Framework For Drug Discovery Identifies Csf1R As A Novel Anti-Epileptic Drug Target. Nat. Comms. ISSN: 2041-1723 https://www.biorxiv.org/content/early/2017/05/22/140087
+Delahaye-Duriez, A. et al. Rare and common epilepsies converge on a shared gene regulatory network providing opportunities for novel antiepileptic drug discovery. Genome Biol. 17, 245 (2016).
+
